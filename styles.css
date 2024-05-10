@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 3%;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choice{
+    height: 163px;
+    width: 163px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+
+}
+.choice:hover{
+    background-color: rgb(38, 45, 48);
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+
+}
+.choices{
+    flex-wrap: wrap;
+}
+.score-card{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score{
+    font-size: 24px;
+}
+h2{
+    
+    background-color:antiquewhite;
+    display: inline;padding: 2%;
+    border-radius: 2rem;border: 2px solid black;
+}
